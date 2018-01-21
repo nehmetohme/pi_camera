@@ -14,5 +14,6 @@
 
 ## pi-camera
 * git clone https://github.com/nehmetohme/pi_camera.git
+* Adapt the pom.xml to point to your local repo. eg. "<url>http://dexter:8788/repo/</url>"
 * mvn clean install
 * Deploy Bundle - ./target/pi-camera.0.1-SNAPSHOT.dp on Kura or Kapua!
